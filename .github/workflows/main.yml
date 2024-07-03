@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: cd cicd-workshop
       - run: npm install
       - run: npm ci
       - run: npm run test
